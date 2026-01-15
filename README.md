@@ -4,7 +4,7 @@ Aplikasi manajemen tugas harian dengan fitur reminder otomatis. Dibuat dengan Re
 
 ## ✨ Fitur Utama
 
-- **📅 Daily Tasks** - Tugas harian yang akan di-carry over otomatis jika belum selesai
+- **📅 Daily Tasks** - Tugas harian yang otomatis dilanjutkan ke hari berikutnya jika belum selesai
 - **♾️ Lifetime Tasks** - Tugas jangka panjang yang selalu muncul sampai selesai
 - **🔔 Smart Reminder** - Notifikasi pengingat dengan interval yang bisa diatur
 - **📊 Statistik** - Pantau produktivitas kamu dengan grafik mingguan
