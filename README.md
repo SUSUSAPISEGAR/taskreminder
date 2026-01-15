@@ -13,9 +13,9 @@ Aplikasi manajemen tugas harian dengan fitur reminder otomatis. Dibuat dengan Re
 
 ## 📱 Screenshots
 
-| Home | Kalender | Statistik |
-|:---:|:---:|:---:|
-| Coming Soon | Coming Soon | Coming Soon |
+| Home | Kalender | Statistik | Add Task |
+|:---:|:---:|:---:|:---:|
+| ![Home](screenshot/MuMu-20260115-145837-682.png) | ![Kalender](screenshot/MuMu-20260115-145841-366.png) | ![Statistik](screenshot/MuMu-20260115-145845-102.png) | ![Add Task](screenshot/MuMu-20260115-145850-306.png) |
 
 ## 🚀 Download
 
