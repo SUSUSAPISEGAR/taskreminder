@@ -1,27 +1,25 @@
 {
   "expo": {
-    "name": "note",
-    "slug": "note",
+    "name": "Task Reminder",
+    "slug": "task-reminder",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "userInterfaceStyle": "dark",
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0D0D14"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.taskreminder.app",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+        "backgroundColor": "#0D0D14"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
