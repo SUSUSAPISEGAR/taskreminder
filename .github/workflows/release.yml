@@ -28,13 +28,22 @@ jobs:
         run: npm install
 
       - name: 🚀 Build APK
-        run: npx eas-cli build -p android --profile preview --non-interactive --output=./app-release.apk
+        id: build
+        run: |
+          npx eas-cli build -p android --profile preview --non-interactive > build_log.txt
+          cat build_log.txt
+          BUILD_URL=$(grep -o 'https://expo.dev/artifacts/eas/[^ ]*' build_log.txt | head -n 1)
+          echo "build_url=$BUILD_URL" >> $GITHUB_OUTPUT
 
       - name: 🚀 Create Release
         uses: softprops/action-gh-release@v1
         with:
-          files: ./app-release.apk
           name: Release ${{ github.ref_name }}
+          body: |
+            Versi terbaru sudah tersedia! 🚀
+            
+            Download APK di sini:
+            ${{ steps.build.outputs.build_url }}
           draft: false
           prerelease: false
         env:
