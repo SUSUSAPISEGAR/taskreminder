@@ -28,7 +28,7 @@ jobs:
         run: npm install
 
       - name: 🚀 Build APK
-        run: eas build -p android --profile preview --non-interactive --local-output=./app-release.apk
+        run: npx eas-cli build -p android --profile preview --non-interactive --output=./app-release.apk
 
       - name: 🚀 Create Release
         uses: softprops/action-gh-release@v1
